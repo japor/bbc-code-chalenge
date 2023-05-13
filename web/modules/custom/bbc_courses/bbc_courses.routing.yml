@@ -1,0 +1,14 @@
+bbc_courses.course_signup_form:
+  path: '/bbc_courses/form/course_signup'
+  defaults:
+    _form: '\Drupal\bbc_courses\Form\CourseSignupForm'
+    _title: 'Course Signup '
+  requirements:
+    _access: 'TRUE'
+bbc_courses.testform:
+  path: 'no'
+  defaults:
+    _form: '\Drupal\bbc_courses\Form\testform'
+    _title: 'testform'
+  requirements:
+    _access: 'TRUE'

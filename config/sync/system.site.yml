@@ -1,0 +1,14 @@
+uuid: 8952f670-d914-440b-bd51-ae1d8605bda3
+name: BBC
+mail: jonathan.mejoy@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

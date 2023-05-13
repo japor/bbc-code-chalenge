@@ -1,0 +1,83 @@
+{
+  "Math": {
+    "Algebra": {
+      "timeslot": [
+        "8:00 AM",
+        "11:00 AM"
+      ]
+    },
+    "Trigonometry": {
+      "timeslot": [
+        "9:00 AM",
+        "12:00 PM"
+      ]
+    },
+    "Calculus": {
+      "timeslot": [
+        "10:00 AM",
+        "3:00 PM"
+      ]
+    }
+  },
+  "Science": {
+    "Physics": {
+      "timeslot": [
+        "10:00 AM",
+        "3:00 PM"
+      ]
+    },
+    "Chemistry": {
+      "timeslot": [
+        "9:00 AM",
+        "1:00 PM"
+      ]
+    },
+    "Biology": {
+      "timeslot": [
+        "8:00 AM",
+        "10:00 AM"
+      ]
+    }
+  },
+  "Art": {
+    "Art History": {
+      "timeslot": [
+        "11:00 AM"
+      ]
+    },
+    "Painting": {
+      "timeslot": [
+        "2:00 PM"
+      ]
+    },
+    "Drawing": {
+      "timeslot": [
+        "8:00 AM",
+        "5:00 AM"
+      ]
+    }
+  },
+  "Language Arts": {
+    "Literature": {
+      "timeslot": [
+        "8:30 AM",
+        "11:45 AM"
+      ]
+    },
+    "Grammar": {
+      "timeslot": [
+        "8:00 AM",
+        "9:00 AM",
+        "10:00 AM",
+        "11:00 AM",
+        "1:00 PM"
+      ]
+    },
+    "Writing": {
+      "timeslot": [
+        "8:00 AM",
+        "11:00 AM"
+      ]
+    }
+  }
+}
