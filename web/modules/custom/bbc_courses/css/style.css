@@ -1,0 +1,19 @@
+.course-signup-form {
+  display: flex;
+  gap: 10px;
+}
+
+.signup-form-wrapper {
+  flex: 1;
+}
+
+.signup-form-wrapper input[type=text],
+.signup-form-wrapper input[type=email],
+.signup-form-wrapper input[type=number],
+.signup-form-wrapper select {
+  width: 100% !important;
+}
+
+.signup-preview-wrapper {
+  flex: 1;
+}

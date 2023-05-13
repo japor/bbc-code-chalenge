@@ -1,0 +1,6 @@
+services:
+  bbc_courses.student_repository:
+    class: Drupal\bbc_courses\StudentRepository
+    arguments:
+      - '@module_handler'
+      - '@session'

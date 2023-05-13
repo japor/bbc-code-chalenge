@@ -1,0 +1,7 @@
+name: 'BBC Courses'
+type: module
+description: 'Interactive Courses Signup  module'
+core: 9.x
+package: 'Custom'
+libraries:
+  - bbc_courses/custom

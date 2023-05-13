@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains bbc_courses.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function bbc_courses_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the bbc_courses module.
+    case 'help.page.bbc_courses':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Interactive Courses Signup  module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function bbc_courses_theme() {
+  return [
+    'bbc_courses' => [
+      'render element' => 'children',
+    ],
+  ];
+}

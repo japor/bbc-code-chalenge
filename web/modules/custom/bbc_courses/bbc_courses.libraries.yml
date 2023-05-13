@@ -1,0 +1,5 @@
+custom:
+  version: 1
+  css:
+    theme:
+      css/style.css: {}
