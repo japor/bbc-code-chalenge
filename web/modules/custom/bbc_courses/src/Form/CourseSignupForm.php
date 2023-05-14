@@ -345,7 +345,7 @@ public function deleteData() {
     // Add the new course.
     $update_data['courses'][] = [
       'subject' => $form_state->getValue('course_subject'),
-      'topic' => $form_state->getValue('course_subject'),
+      'topic' => $form_state->getValue('course_topic'),
       'timeslot' => $form_state->getValue('course_timeslot'),
     ];
 
